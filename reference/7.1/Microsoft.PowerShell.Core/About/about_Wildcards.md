@@ -56,7 +56,7 @@ includes **Interactive**.
 Get-Service | Where-Object {$_.ServiceType -Like "*Interactive*"}
 ```
 
-In the following example, the `If` statement includes a condition that uses
+In the following example, the `if` statement includes a condition that uses
 wildcard characters to find property values. If the restore point's
 **Description** includes **PowerShell**, the command adds the value of the
 restore point's **CreationTime** property to a log file.

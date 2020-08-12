@@ -73,9 +73,9 @@ foreach ($file in Get-ChildItem)
 }
 ```
 
-You can refine the example by using an `If` statement to limit the results
+You can refine the example by using an `if` statement to limit the results
 that are returned. In the following example, the `Foreach` statement performs
-the same looping operation as the previous example, but it adds an `If`
+the same looping operation as the previous example, but it adds an `if`
 statement to limit the results to files that are greater than 100 kilobytes
 (KB):
 
@@ -135,7 +135,7 @@ else {
 
 In the preceding example, the `$i` variable is set to `0` outside the loop,
 and the variable is incremented inside the loop for each file that is found
-that is larger than 100 KB. When the loop exits, an `If` statement evaluates
+that is larger than 100 KB. When the loop exits, an `if` statement evaluates
 the value of `$i` to display a count of all the files over 100 KB. Or, it
 displays a message stating that no files over 100 KB were found.
 

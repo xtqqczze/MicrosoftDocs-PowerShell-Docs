@@ -44,7 +44,7 @@ enum             private
 (*) These keywords are reserved for future use.
 ```
 
-Several language keywords, including `Foreach`, `If`, `For`, and `While`, have
+Several language keywords, including `Foreach`, `if`, `For`, and `While`, have
 their own help articles. To view them, type `Get-Help about_` and add the
 keyword. For example, to get information about the `Foreach` statement, type:
 

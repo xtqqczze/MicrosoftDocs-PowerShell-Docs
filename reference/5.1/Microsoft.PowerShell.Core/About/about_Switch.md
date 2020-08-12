@@ -9,16 +9,16 @@ title: about_Switch
 # About Switch
 
 ## Short description
-Explains how to use a switch to handle multiple `If` statements.
+Explains how to use a switch to handle multiple `if` statements.
 
 ## Long description
 
-To check a condition in a script or function, use an `If` statement. The `If`
+To check a condition in a script or function, use an `if` statement. The `if`
 statement can check many types of conditions, including the value of variables
 and the properties of objects.
 
 To check multiple conditions, use a `Switch` statement. The `Switch` statement
-is equivalent to a series of `If` statements, but it is simpler. The `Switch`
+is equivalent to a series of `if` statements, but it is simpler. The `Switch`
 statement lists each condition and an optional action. If a condition obtains,
 the action is performed.
 
@@ -161,7 +161,7 @@ a collection, each element is evaluated in the order in which it appears.
 The `Switch` statement must include at least one condition statement.
 
 The `Default` clause is triggered when the value does not match any of the
-conditions. It is equivalent to an `Else` clause in an `If` statement. Only one
+conditions. It is equivalent to an `Else` clause in an `if` statement. Only one
 `Default` clause is permitted in each `Switch` statement.
 
 `Switch` has the following parameters:

@@ -646,7 +646,7 @@ fall into the `$snowSqlParam` in the correct place. Same holds true for the `$Pa
 ## Simplify complex operations
 
 It's inevitable that you run into a situation that has way too many comparisons to check and your
-`If` statement scrolls way off the right side of the screen.
+`if` statement scrolls way off the right side of the screen.
 
 ```powershell
 $user = Get-ADUser -Identity $UserName

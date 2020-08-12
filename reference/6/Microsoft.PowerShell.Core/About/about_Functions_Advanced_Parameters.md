@@ -824,7 +824,7 @@ The syntax is as follows:
 
 `DynamicParam {<statement-list>}`
 
-In the statement list, use an `If` statement to specify the conditions under
+In the statement list, use an `if` statement to specify the conditions under
 which the parameter is available in the function.
 
 Use the `New-Object` cmdlet to create a

@@ -144,7 +144,7 @@ while (<condition>) {
 ### Data
 
 In a script, defines a section that isolates data from the script logic. Can
-also include `If` statements and some limited commands.
+also include `if` statements and some limited commands.
 
 Syntax:
 
@@ -187,7 +187,7 @@ function <name> {
 
 ### Else
 
-Used with the `If` keyword to specify the default statement list.
+Used with the `if` keyword to specify the default statement list.
 
 Syntax:
 
@@ -198,7 +198,7 @@ else {<statement list>}
 
 ### Elseif
 
-Used with the `If` and `Else` keywords to specify additional conditionals. The
+Used with the `if` and `Else` keywords to specify additional conditionals. The
 `Else` keyword is optional.
 
 Syntax:
@@ -484,7 +484,7 @@ See `Class` for usage examples.
 ### Switch
 
 To check multiple conditions, use a `Switch` statement. The `Switch` statement is
-equivalent to a series of `If` statements, but it is simpler.
+equivalent to a series of `if` statements, but it is simpler.
 
 The `Switch` statement lists each condition and an optional action. If a
 condition obtains, the action is performed.
