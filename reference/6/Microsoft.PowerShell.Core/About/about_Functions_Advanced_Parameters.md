@@ -884,7 +884,7 @@ only when they're used and have only one effect.
 For example, the **NoProfile** parameter of **powershell.exe** is a switch
 parameter.
 
-To create a switch parameter in a function, specify the `Switch` type in the
+To create a switch parameter in a function, specify the `switch` type in the
 parameter definition.
 
 For example:

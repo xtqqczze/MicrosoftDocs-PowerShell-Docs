@@ -544,8 +544,8 @@ Contains a stack trace for the most recent error.
 
 ### $switch
 
-Contains the enumerator not the resulting values of a `Switch` statement. The
-`$switch` variable exists only while the `Switch` statement is running; it's
+Contains the enumerator not the resulting values of a `switch` statement. The
+`$switch` variable exists only while the `switch` statement is running; it's
 deleted when the `switch` statement completes execution. For more information,
 see [about_Switch](about_Switch.md).
 
