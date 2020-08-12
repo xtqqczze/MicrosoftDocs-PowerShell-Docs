@@ -161,7 +161,7 @@ a collection, each element is evaluated in the order in which it appears.
 The `Switch` statement must include at least one condition statement.
 
 The `Default` clause is triggered when the value does not match any of the
-conditions. It is equivalent to an `Else` clause in an `if` statement. Only one
+conditions. It is equivalent to an `else` clause in an `if` statement. Only one
 `Default` clause is permitted in each `Switch` statement.
 
 `Switch` has the following parameters:

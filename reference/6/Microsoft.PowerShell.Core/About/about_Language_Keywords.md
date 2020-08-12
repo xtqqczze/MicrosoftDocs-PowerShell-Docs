@@ -195,8 +195,8 @@ else {<statement list>}
 
 ### Elseif
 
-Used with the `if` and `Else` keywords to specify additional conditionals. The
-`Else` keyword is optional.
+Used with the `if` and `else` keywords to specify additional conditionals. The
+`else` keyword is optional.
 
 Syntax:
 
