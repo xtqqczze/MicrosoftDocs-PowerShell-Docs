@@ -45,7 +45,7 @@ The Data keyword is required. It is not case-sensitive. The permitted content
 is limited to the following elements:
 
 - All PowerShell operators, except `-match`
-- `if`, `else`, and `ElseIf` statements
+- `if`, `else`, and `elseif` statements
 - The following automatic variables: `$PsCulture`, `$PsUICulture`, `$True`,
   `$False`, and `$Null`
 - Comments
